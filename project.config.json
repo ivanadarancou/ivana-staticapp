@@ -16,6 +16,28 @@
       "type": "sheet",
       "name": "pirates"
     }
+    ,
+    {
+      "fileId": "1lNOuOtlEBVcJE5xbZpYg6uAv90h9MvpURbkbDhXuVus",
+      "type": "doc",
+      "name": "blog"
+    }
+    ,
+    {
+      "blogs": [
+        {
+          "headline": "Pirate Ships of the Caribbean",
+          "date": "2023-04-10",
+          "slug": "pirate-ships-caribbean"
+        },
+        {
+          "headline": "The Golden Age of Pirates",
+          "date": "2023-04-12",
+          "slug": "golden-age-pirates"
+        }
+      ]
+    }
+    
   ],
   "to_bake": [
     {
@@ -24,6 +46,14 @@
       "array": "books",
       "slug": "slug",
       "path": "books"
+    }
+    ,
+    {
+      "template": "bake-blog",
+      "data": "blog",
+      "array": "blogs",
+      "slug": "slug",
+      "path": "blog"
     }
   ]
 }
